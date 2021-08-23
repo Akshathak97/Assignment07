@@ -1,4 +1,5 @@
 import image from './aboutme.jpg';
+import contactForm from './contactForm';
 
 function App() {
   return (
@@ -123,7 +124,18 @@ function App() {
    
       </div>
     </div>
+    <br></br>
 
+    <div className="card">
+      <div className="card-body">
+        <div id="contact">
+          <h4 className="card-title">Contact Me</h4>
+             <contactForm />
+        </div>
+
+      </div>
+
+    </div>
 
 
 
